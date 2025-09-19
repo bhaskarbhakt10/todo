@@ -1,3 +1,8 @@
+<?php
+    include 'db.php';
+
+?>
+
 <!doctype html>
 <html lang="en">
 
