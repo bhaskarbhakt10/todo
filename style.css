@@ -1,4 +1,5 @@
 body {
+<<<<<<< HEAD
   background: #2a7b9b;
   background: linear-gradient(
     90deg,
@@ -6,6 +7,9 @@ body {
     rgba(87, 199, 133, 1) 50%,
     rgba(237, 221, 83, 1) 100%
   );
+=======
+  background-color:#ccc ;
+>>>>>>> 2b516431496c0ff0562600290da7d9a27c5cef15
 }
 
 .todo {

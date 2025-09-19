@@ -76,7 +76,7 @@
 
                                                     <div>
                                                         <span>
-                                                            <input type="checkbox" name="" id="" >
+                                                            <input type="checkbox" name="" id="">
                                                         </span>
                                                         Item 1
                                                     </div>
@@ -103,7 +103,7 @@
                                                 <div class="d-flex gap-2 justify-content-between">
 
                                                     <div class="completed">
-                                                         <span>
+                                                        <span>
                                                             <input type="checkbox" name="" id="" checked>
                                                         </span>
                                                         Item 1
