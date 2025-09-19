@@ -1,6 +1,6 @@
-body {
-  background-color:#ccc ;
-}
+body{
+    background-color: yellowgreen;
+
 
 .todo {
   display: flex;
