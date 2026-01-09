@@ -1,3 +1,8 @@
+<?php
+//require_once 'db.php';
+require_once 'db-v2.php';
+?>
+
 <!doctype html>
 <html lang="en">
 
