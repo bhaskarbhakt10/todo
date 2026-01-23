@@ -38,7 +38,7 @@ require_once 'db-v2.php';
 
                         <div class="todo-form">
 
-                            <form action="submit.php" method="POST">
+                            <form action="submit.php" method="GET">
 
 
                                 <div class="mb-3">
@@ -80,10 +80,25 @@ require_once 'db-v2.php';
                                                 <div class="d-flex gap-2 justify-content-between">
 
                                                     <div>
-                                                        <span>
-                                                            <input type="checkbox" name="" id="">
-                                                        </span>
-                                                        Item 1
+                                                        <?php
+                                                        $sql_execute = "Select * from todo_list";
+
+                                                        $sql_query = mysqli_query($impfunc, $sql_execute);
+                                                        var_dump($sql_query->num_rows);
+
+                                                        if ($sql_query->num_rows > 0) {
+                                                        ?>
+                                                            <span>
+                                                                <input type="checkbox" name="" id="">
+                                                            </span>
+                                                        <?php
+                                                            while ($row = $sql_query->fetch_assoc()) {
+                                                                echo ($row["Todo items"]);
+                                                            }
+                                                        }
+                                                        ?>
+
+
                                                     </div>
                                                     <div>
                                                         <button class="btn  btn-info btn-sm"><i
